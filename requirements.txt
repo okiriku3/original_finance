@@ -1,0 +1,4 @@
+yfinance
+altair
+pandas
+streamlit
