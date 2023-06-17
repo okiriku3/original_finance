@@ -128,8 +128,13 @@ def common_data_df():
         #google driveからの立ち上げの場合
         credentials = Credentials.from_service_account_file("/content/drive/MyDrive/streamlit_finance/my-data-gathering-system-56fbd487872a.json", scopes=scopes)
     except:
-        #pcからリモートで立ち上げの場合
-        credentials = Credentials.from_service_account_file("/Volumes/GoogleDrive/マイドライブ/streamlit_finance/my-data-gathering-system-56fbd487872a.json", scopes=scopes)
+        try:
+            #pcからリモートで立ち上げの場合
+            credentials = Credentials.from_service_account_file("/Volumes/GoogleDrive/マイドライブ/streamlit_finance/my-data-gathering-system-56fbd487872a.json", scopes=scopes)
+        except:
+            #docker使ってgithub
+            credentials = Credentials.from_service_account_file("https://drive.google.com/file/d/15NI523AwaFeCfGhNpxfiEXPJ-fLiULCq/view?usp=drive_link", scopes=scopes)
+            
     gc = gspread.authorize(credentials)
 
     #####Google Spread sheet 指定（ワークシートは除く）######
