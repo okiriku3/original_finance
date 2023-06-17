@@ -4,3 +4,4 @@ pandas
 streamlit
 pandas_datareader
 relativedelta
+streamlit.components.v1
