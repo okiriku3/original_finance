@@ -162,6 +162,7 @@ def common_data_df():
     # step1:全データをスプレッドシートから読み込み
     ##########
     import datetime
+    
 
     #####日時時間設定######
     now = datetime.datetime.now()
