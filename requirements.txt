@@ -2,5 +2,4 @@ yfinance
 altair
 pandas
 streamlit
-relativedelta
 plotly
