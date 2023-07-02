@@ -1,4 +1,4 @@
-st.write("
+st.write('
  米国株
  SPY：S＆P500連動ETF
  QQQ ： NASDAQ100指数連動ETF
@@ -27,8 +27,7 @@ st.write("
 
  指数
  ^SOX ： SOX指数（フィラデルフィア半導体株指数）
- ^N225 ： 日経225
- ")
+ ^N225 ： 日経225')
 
 import plotly.express as px
 
