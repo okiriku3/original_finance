@@ -1,32 +1,34 @@
-# 米国株
-# SPY：S＆P500連動ETF
-# QQQ ： NASDAQ100指数連動ETF
-# DIA ： ダウ指数連動ETF
-# IWM ： 米国の小型株で構成される指数（ラッセル2000）連動ETF
-# ARKK ： キャシー・ウッド氏率いるアーク・インベストメント・マネジメントのイノベーションに焦点を当てたETF
+st.write("
+ 米国株
+ SPY：S＆P500連動ETF
+ QQQ ： NASDAQ100指数連動ETF
+ DIA ： ダウ指数連動ETF
+ IWM ： 米国の小型株で構成される指数（ラッセル2000）連動ETF
+ ARKK ： キャシー・ウッド氏率いるアーク・インベストメント・マネジメントのイノベーションに焦点を当てたETF
 
-# 債券
-# SHY ： 米国国債 1-3年 ETF
-# IEF ： 米国国債 7-10年 ETF
-# TLT ： 米国国債 20年超 ETF
+ 債券
+ SHY ： 米国国債 1-3年 ETF
+ IEF ： 米国国債 7-10年 ETF
+ TLT ： 米国国債 20年超 ETF
 
-# コモディティ
-# DBC ： インベスコ DB コモディティ インデックス トラッキング ファンド
-# USO ： WTI原油連動ETF
-# GLD ： 金地金との連動ETF
-# SLV ： 銀ETF
+ コモディティ
+ DBC ： インベスコ DB コモディティ インデックス トラッキング ファンド
+ USO ： WTI原油連動ETF
+ GLD ： 金地金との連動ETF
+ SLV ： 銀ETF
 
-# 新興国
-# BKF ： BRIC ETF
+ 新興国
+ BKF ： BRIC ETF
 
-# 通貨
-# BTC-USD ： ビットコイン（BTC/USD）
-# ETH-USD ： イーサリアム（ETH/USD）
-# JPY=X ： 円ドル
+ 通貨
+ BTC-USD ： ビットコイン（BTC/USD）
+ ETH-USD ： イーサリアム（ETH/USD）
+ JPY=X ： 円ドル
 
-# 指数
-# ^SOX ： SOX指数（フィラデルフィア半導体株指数）
-# ^N225 ： 日経225
+ 指数
+ ^SOX ： SOX指数（フィラデルフィア半導体株指数）
+ ^N225 ： 日経225
+ ")
 
 import plotly.express as px
 
