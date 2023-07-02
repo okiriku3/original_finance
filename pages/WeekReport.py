@@ -1,4 +1,4 @@
-st.write('
+"""st.write('
  米国株
  SPY：S＆P500連動ETF
  QQQ ： NASDAQ100指数連動ETF
@@ -28,6 +28,7 @@ st.write('
  指数
  ^SOX ： SOX指数（フィラデルフィア半導体株指数）
  ^N225 ： 日経225')
+ """
 
 import plotly.express as px
 
@@ -284,7 +285,7 @@ check(df_Dex)
 # １株あたり純利益及び１株あたり純資産が長期的に上昇トレンド(上昇率は不問)
 
 # 総資産に占める現金等の割合が高く、長期的に上昇傾向
-from pages import commonapp
+#from pages import commonapp
 
 # from pages import stockMLProphet
 
